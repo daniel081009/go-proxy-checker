@@ -18,6 +18,7 @@ type proxy struct {
 	status bool
 }
 
+test
 var timeout = time.Duration(10 * time.Second)
 
 func dialTimeout(network, addr string) (net.Conn, error) {
